@@ -1,0 +1,41 @@
+
+.player_descricao, .player_temporizador-cronometro {
+    cursor: default;
+}
+
+.player_temporizador-cronometro_tempo {
+    width: 200px;
+    height: 0.25rem;
+    background: white;
+    border-radius: .5rem;
+}
+
+.player__temporizador-botoes {
+  display:flex;
+  align-items: center;
+}
+
+.player_descricao h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.player_descricao span {
+    font-size: 0.9rem;
+}
+
+.player_volume_nivel {
+    width: 70%;
+    height: 0.25rem;
+    background: blue;
+    border-radius: .5rem;
+}
+
+.secao-player {
+    padding: 16px;
+    width: 100vw;
+}
+
+.secao-player {
+    position: absolute;
+}
